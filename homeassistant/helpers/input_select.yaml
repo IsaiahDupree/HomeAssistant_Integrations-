@@ -1,0 +1,8 @@
+# Helper: Dropdown to choose which Chromecast to cast to
+# Replace the options below with your actual media_player entity_ids.
+
+cast_target:
+  name: Cast Target
+  options:
+    - media_player.living_room_chromecast  # ← replace with your device(s)
+  icon: mdi:cast
