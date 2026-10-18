@@ -1,0 +1,13 @@
+type: entities
+title: Cast to TV
+entities:
+  - entity: input_text.youtube_url_to_cast
+    name: Paste YouTube URL or ID
+  - entity: input_text.soundcloud_url_to_cast
+    name: Paste SoundCloud URL
+  - entity: input_select.cast_target
+    name: Choose Chromecast
+  - entity: script.cast_youtube_from_input
+    name: "▶️ Play YouTube"
+  - entity: script.cast_soundcloud_from_input
+    name: "▶️ Play SoundCloud"

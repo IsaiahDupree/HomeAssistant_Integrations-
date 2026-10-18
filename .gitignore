@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Home Assistant secrets (if you ever copy real config files here)
+secrets.yaml

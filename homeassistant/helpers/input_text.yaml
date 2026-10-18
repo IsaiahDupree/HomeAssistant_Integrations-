@@ -1,0 +1,10 @@
+# Helpers: Text Inputs
+# You can use only the YouTube input for both YouTube and SoundCloud if you prefer.
+
+youtube_url_to_cast:
+  name: YouTube URL to Cast
+  max: 255
+
+soundcloud_url_to_cast:
+  name: SoundCloud URL to Cast
+  max: 255
